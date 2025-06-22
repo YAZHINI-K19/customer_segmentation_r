@@ -1,83 +1,89 @@
 
-🧩 Customer Segmentation Poster in R
+🧠 Customer Segmentation Poster in R
 
-This project performs Customer Segmentation using K-Means Clustering on synthetic customer data in R. The result is a visually appealing poster that combines multiple insightful plots using ggplot2 and patchwork.
-
-
----
-
-🔍 Project Highlights
-
-💡 K-Means Clustering on customer Income and Spending Score
-
-📈 Scatter Plot: Income vs. Spending Score with clusters
-
-📊 Histogram: Age distribution grouped by cluster
-
-🟦 Bar Chart: Average Income & Spending Score per cluster
-
-🖼️ All visualizations combined into a single poster layout
-
-💾 Saves final output as a high-resolution PNG
-
+Use K-Means Clustering to segment customers based on income and spending behavior. This project generates a single, clean visual poster combining insightful plots using ggplot2 and patchwork.
 
 
 ---
 
-🛠️ Technologies Used
+🔹 Project Overview
 
-📦 ggplot2 – for high-quality visualizations
+🚀 Goal: Group customers into clusters for marketing insights
+🧪 Method: K-Means Clustering on synthetic customer data
+🖼️ Output: High-resolution PNG poster with 3 key visualizations
 
-📦 dplyr – for data transformation and wrangling
 
-📦 cluster – for performing K-Means clustering
+---
 
-📦 patchwork – for combining multiple ggplots into one
+📊 Visuals Included
+
+🎯 Scatter Plot: Income vs Spending Score by cluster
+
+🧓 Histogram: Age distribution segmented by cluster
+
+💰 Bar Chart: Average Income & Spending Score per cluster
+
+🖼️ All visuals combined into one seamless poster layout
 
 
 
 ---
 
-📦 Requirements
+🛠 Technologies & Packages
 
-Install the required R packages:
+ggplot2 – for elegant and flexible plotting
+
+dplyr – for data manipulation
+
+cluster – to run K-Means algorithm
+
+patchwork – to stitch plots together into one canvas
+
+
+
+---
+
+📦 Installation
+
+Install the required packages using:
 
 install.packages(c("ggplot2", "dplyr", "cluster", "patchwork"))
 
-Alternatively, refer to the included requirements.txt.
+📁 Alternatively, use the provided requirements.txt for setup.
 
 
 ---
 
 ▶️ How to Run
 
-1. Clone the repository or download the project files
+1. Download or clone the repository
 
 
 2. Open customer_segmentation.R in RStudio
 
 
-3. Run the script
+3. Click Source or Run the script
 
 
-4. The output will be saved as:
-📁 Customer_Segmentation_Poster.png
+4. Find the final output:
+🎨 Customer_Segmentation_Poster.png in your working directory
 
 
 
 
 ---
 
-👩‍💻 Author
+👤 Author
 
-Yazhini K
+Created with  by Yazhini K
 
 
 ---
 
 📄 License
 
-Licensed under the MIT License.
+This project is licensed under the MIT License.
 
 
 ---
+
