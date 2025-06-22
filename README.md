@@ -1,82 +1,132 @@
-#Customer Segmentation Analysis Poster
-Author: Yazhini K 
+
+
+Customer Segmentation Analysis Poster
+
+Author: Yazhini K
+
 
 ---
-#Overview:
-This project demonstrates a data-driven customer segmentation analysis using K-Means clustering on a simulated dataset. The aim is to group customers based on income and spending behavior to uncover actionable insights for marketing and business strategies. The results are visualized through a professionally designed poster created with R.
----
-#Objectives:
 
-Apply unsupervised learning (K-Means clustering) to identify customer segments.
+Overview
+
+This project demonstrates a data-driven customer segmentation analysis using K-Means clustering on a simulated dataset. The goal is to group customers based on income and spending behavior, uncovering actionable insights for targeted marketing and strategic business decisions. The results are visualized in a professionally designed poster using R.
+
+
+---
+
+Objectives
+
+Apply unsupervised learning (K-Means clustering) to identify distinct customer segments.
 
 Visualize clusters using spending score and annual income.
 
-Analyze demographic distribution (age) within each cluster.
+Analyze the demographic distribution (age) within each cluster.
 
 Summarize key financial characteristics per cluster.
----
 
-Dataset Description: The dataset is synthetically generated and contains 200 customer records with the following features:
 
-customer_id: Unique identifier
-
-age: Customer age (18–65)
-
-annual_income: Annual income in USD (20,000–120,000)
-
-spending_score: A score from 1 to 100 representing customer spending behavior
 
 ---
-#Clustering Details:
 
-Algorithm: K-Means
+Dataset Description
 
-Number of clusters: 4
+The dataset is synthetically generated, containing 200 customer records with the following features:
 
-Features used: Annual Income and Spending Score
+Feature	Description
 
-Initialization: 25 random starts to ensure stable convergence
+customer_id	Unique identifier for each customer
+age	Customer age (ranging from 18 to 65)
+annual_income	Annual income in USD (from $20,000 to $120,000)
+spending_score	Score (1–100) representing spending behavior
+
+
+
 ---
 
-#Visual Components:
+Clustering Details
+
+Parameter	Value
+
+Algorithm	K-Means
+Number of Clusters	4
+Features Used	annual_income, spending_score
+Initialization	25 random starts for stable convergence
+
+
+
+---
+
+Visual Components of the Poster
 
 1. Income vs Spending Score
-A scatter plot that illustrates how customers are grouped based on income and spending behavior.
+
+A scatter plot showing customer clusters based on their income and spending behavior.
+
+Each cluster is represented by a distinct color.
+
 
 
 2. Age Distribution by Cluster
-A histogram showing the distribution of customer ages within each cluster.
+
+A histogram displaying the age range of customers in each cluster.
+
+Helps identify demographic trends within segments.
 
 
-3. Average Income and Spending by Cluster
-A bar plot comparing average income and average spending score (scaled) across all clusters.
+
+3. Average Income and Spending Score by Cluster
+
+A bar chart comparing the average income and scaled spending score for each cluster.
+
+Provides insights into financial behavior per group.
+
+
+
 
 
 ---
-Poster Design: All visualizations are arranged into a single cohesive layout using the patchwork library, featuring:
+
+Poster Design Highlights
+
+Designed using the patchwork library to merge all plots into one cohesive layout.
+
+Features:
 
 Centralized title and subtitle
 
-Clean and readable design with minimal theme
+Minimal, clean theme for clarity
 
-Cluster-based color distinction
+Color distinction based on clusters
+
+High-resolution layout for printing or digital presentation
+
+
+
 
 ---
-#Output:
 
-Customer_Segmentation_Poster.png: A high-resolution PNG poster (12x16 inches at 300 DPI)
+Output
+
+File Name: Customer_Segmentation_Poster.png
+Dimensions: 12 x 16 inches
+Resolution: 300 DPI (High-Resolution PNG)
+
+
 ---
-#Usage Instructions:
 
-1. Ensure you have R installed on your system.
+Usage Instructions
 
-
-2. Install the required libraries listed in requirements.txt.
+1. Ensure R is installed on your system.
 
 
-3. Execute the R script to generate and save the poster.
+2. Install the required libraries by using the following command in R:
+
+install.packages(c("ggplot2", "cluster", "dplyr", "patchwork"))
+
+Or use the provided requirements.txt.
 
 
+3. Run the R script included in the project to generate and save the poster image.
 
 
 
@@ -85,12 +135,11 @@ Customer_Segmentation_Poster.png: A high-resolution PNG poster (12x16 inches at 
 
 requirements.txt
 
-ggplot2
-cluster
-dplyr
+ggplot2  
+cluster  
+dplyr  
 patchwork
 
 
 ---
-
 
