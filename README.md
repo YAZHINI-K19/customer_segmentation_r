@@ -40,8 +40,6 @@ To demonstrate basic clustering and data visualization techniques using R for cu
 👩‍💻 Author
 
 Yazhini K
-Reg. No: 23BAI066
-Course: R Programming — Assessment 3
 
 📄 License
 
