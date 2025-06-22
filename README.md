@@ -61,25 +61,6 @@ Or refer to the included requirements.txt.
 
 4. Output: Customer_Segmentation_Poster.png
 
-
-
-
----
-
-📁 Project Files
-
-customer_segmentation.R
-
-Customer_Segmentation_Poster.png
-
-requirements.txt
-
-DESCRIPTION
-
-README
-
-
-
 ---
 
 👩‍💻 Author
