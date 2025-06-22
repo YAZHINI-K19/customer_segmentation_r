@@ -1,5 +1,4 @@
----
-📊 Customer Segmentation Poster in R
+Customer Segmentation Poster in R
 
 This project performs customer segmentation using K-Means Clustering on simulated customer data in R. It creates a poster with insightful visualizations using ggplot2 and patchwork.
 
