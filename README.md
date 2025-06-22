@@ -1,6 +1,6 @@
 
 
-##📌 Customer Segmentation Analysis Poster  
+## 📌 Customer Segmentation Analysis Poster  
 **👩‍💻 Author:** Yazhini K
 
 ---
