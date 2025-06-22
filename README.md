@@ -88,7 +88,7 @@ Or install from requirements.txt
 
 ---
 
-📦 requirements.txt
+## 📦 requirements.txt
 
 ggplot2  
 cluster  
