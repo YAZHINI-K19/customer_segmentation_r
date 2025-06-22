@@ -1,90 +1,90 @@
 
 
-🎨 Customer Segmentation Poster in R
+Customer Segmentation Analysis Poster
 
-Use K-Means Clustering to group customers by income and spending behavior. This project generates a single, insightful visual poster combining multiple ggplot2 plots using patchwork.
+This project performs customer segmentation using K-Means Clustering on simulated customer data. It visualizes key insights through plots using ggplot2 and combines them into a single visual poster using patchwork.
+
+Overview
+
+The dataset contains 200 synthetic customer records with the following features:
+
+age
+
+annual_income (USD)
+
+spending_score (1 to 100)
+
+
+K-Means clustering is applied using annual_income and spending_score, grouping customers into 4 clusters.
+
+Visualizations
+
+The poster includes the following:
+
+1. Income vs Spending Score
+
+Scatter plot showing clusters based on income and spending behavior.
+
+
+
+2. Age Distribution by Cluster
+
+Histogram showing the age distribution of customers in each cluster.
+
+
+
+3. Average Income and Spending by Cluster
+
+Bar chart comparing average annual income and spending scores across clusters.
+
+Spending score is scaled (multiplied by 1000) for visual comparison.
+
+
+
+
+The three plots are stacked vertically and decorated with a main title, subtitle, and caption using the patchwork package.
+
+Output
+
+The final poster is saved as: Customer_Segmentation_Poster.png
+
+
+Requirements
+
+The following R packages are required:
+
+ggplot2
+
+cluster
+
+dplyr
+
+patchwork
+
+
+You can install them using:
+
+install.packages(c("ggplot2", "cluster", "dplyr", "patchwork"))
+
+How to Run
+
+1. Open RStudio or any R-compatible IDE.
+
+
+2. Copy and paste the R script into a script file.
+
+
+3. Run the script.
+
+
+4. The poster image will be generated and saved in your working directory.
+
+
+
+Author
+
+Created by: Yazhini K
+Title: Customer Segmentation Poster for Data Analysis and Visualization Project
 
 
 ---
-
-🔹 Project Overview
-
-🚀 Goal: Segment customers into meaningful groups
-🧪 Method: K-Means clustering on synthetic customer data
-🖼️ Result: A polished, high-resolution PNG poster
-
-
----
-
-📊 Visuals Included
-
-🎯 Scatter Plot – Income vs. Spending Score by cluster
-
-🧓 Histogram – Age distribution segmented by cluster
-
-💰 Bar Chart – Avg Income & Spending Score per cluster
-
-🖼️ Combined into one clean visual poster
-
-
-
----
-
-🛠 Technologies & Packages
-
-📦 ggplot2 – Elegant data visualization
-
-📦 dplyr – Fast and flexible data manipulation
-
-📦 cluster – K-Means clustering implementation
-
-📦 patchwork – Seamless plot layout creation
-
-
-
----
-
-📦 Installation
-
-Install all required packages:
-
-install.packages(c("ggplot2", "dplyr", "cluster", "patchwork"))
-
-📁 Or use the provided requirements.txt.
-
-
----
-
-▶️ How to Run
-
-1. Clone or download the repository
-
-
-2. Open customer_segmentation.R in RStudio
-
-
-3. Run the script
-
-
-4. 📁 Output saved as: Customer_Segmentation_Poster.png
-
-
-
-
----
-
-👩‍💻 Author
-
-Created by Yazhini K ✨
-
-
----
-
-📄 License
-
-Released under the MIT License
-
-
----
-
-
