@@ -1,23 +1,24 @@
-Customer Segmentation Poster in R
 
-This project performs customer segmentation using K-Means Clustering on simulated customer data in R. It creates a poster with insightful visualizations using ggplot2 and patchwork.
+🧩 Customer Segmentation Poster in R
+
+This project performs Customer Segmentation using K-Means Clustering on synthetic customer data in R. The result is a visually appealing poster that combines multiple insightful plots using ggplot2 and patchwork.
 
 
 ---
 
 🔍 Project Highlights
 
-💡 K-Means clustering on customer income and spending score
+💡 K-Means Clustering on customer Income and Spending Score
 
-📈 Scatter Plot: Income vs Spending
+📈 Scatter Plot: Income vs. Spending Score with clusters
 
-📊 Histogram: Age Distribution by Cluster
+📊 Histogram: Age distribution grouped by cluster
 
-🟦 Bar Chart: Avg Income & Spending per Cluster
+🟦 Bar Chart: Average Income & Spending Score per cluster
 
-🖼️ Combines all into one visual poster
+🖼️ All visualizations combined into a single poster layout
 
-💾 Saves output as a high-resolution PNG
+💾 Saves final output as a high-resolution PNG
 
 
 
@@ -25,31 +26,32 @@ This project performs customer segmentation using K-Means Clustering on simulate
 
 🛠️ Technologies Used
 
-📦 ggplot2 – for visualizations
+📦 ggplot2 – for high-quality visualizations
 
-📦 dplyr – for data manipulation
+📦 dplyr – for data transformation and wrangling
 
-📦 cluster – for K-Means clustering
+📦 cluster – for performing K-Means clustering
 
-📦 patchwork – for combining plots
+📦 patchwork – for combining multiple ggplots into one
 
 
 
 ---
 
 📦 Requirements
-Install required R packages:
+
+Install the required R packages:
 
 install.packages(c("ggplot2", "dplyr", "cluster", "patchwork"))
 
-Or refer to the included requirements.txt.
+Alternatively, refer to the included requirements.txt.
 
 
 ---
 
 ▶️ How to Run
 
-1. Download the files or clone the repository
+1. Clone the repository or download the project files
 
 
 2. Open customer_segmentation.R in RStudio
@@ -58,20 +60,24 @@ Or refer to the included requirements.txt.
 3. Run the script
 
 
-4. Output: Customer_Segmentation_Poster.png
+4. The output will be saved as:
+📁 Customer_Segmentation_Poster.png
+
+
+
 
 ---
 
 👩‍💻 Author
 
-Yazhini K 
+Yazhini K
 
 
 ---
 
 📄 License
 
-MIT License
+Licensed under the MIT License.
 
 
-
+---
