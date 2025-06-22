@@ -1,90 +1,96 @@
+#Customer Segmentation Analysis Poster
+Author: Yazhini K 
 
+---
+#Overview:
+This project demonstrates a data-driven customer segmentation analysis using K-Means clustering on a simulated dataset. The aim is to group customers based on income and spending behavior to uncover actionable insights for marketing and business strategies. The results are visualized through a professionally designed poster created with R.
+---
+#Objectives:
 
-Customer Segmentation Analysis Poster
+Apply unsupervised learning (K-Means clustering) to identify customer segments.
 
-This project performs customer segmentation using K-Means Clustering on simulated customer data. It visualizes key insights through plots using ggplot2 and combines them into a single visual poster using patchwork.
+Visualize clusters using spending score and annual income.
 
-Overview
+Analyze demographic distribution (age) within each cluster.
 
-The dataset contains 200 synthetic customer records with the following features:
+Summarize key financial characteristics per cluster.
+---
 
-age
+Dataset Description: The dataset is synthetically generated and contains 200 customer records with the following features:
 
-annual_income (USD)
+customer_id: Unique identifier
 
-spending_score (1 to 100)
+age: Customer age (18–65)
 
+annual_income: Annual income in USD (20,000–120,000)
 
-K-Means clustering is applied using annual_income and spending_score, grouping customers into 4 clusters.
+spending_score: A score from 1 to 100 representing customer spending behavior
 
-Visualizations
+---
+#Clustering Details:
 
-The poster includes the following:
+Algorithm: K-Means
+
+Number of clusters: 4
+
+Features used: Annual Income and Spending Score
+
+Initialization: 25 random starts to ensure stable convergence
+---
+
+#Visual Components:
 
 1. Income vs Spending Score
-
-Scatter plot showing clusters based on income and spending behavior.
-
+A scatter plot that illustrates how customers are grouped based on income and spending behavior.
 
 
 2. Age Distribution by Cluster
-
-Histogram showing the age distribution of customers in each cluster.
-
+A histogram showing the distribution of customer ages within each cluster.
 
 
 3. Average Income and Spending by Cluster
-
-Bar chart comparing average annual income and spending scores across clusters.
-
-Spending score is scaled (multiplied by 1000) for visual comparison.
-
-
-
-
-The three plots are stacked vertically and decorated with a main title, subtitle, and caption using the patchwork package.
-
-Output
-
-The final poster is saved as: Customer_Segmentation_Poster.png
-
-
-Requirements
-
-The following R packages are required:
-
-ggplot2
-
-cluster
-
-dplyr
-
-patchwork
-
-
-You can install them using:
-
-install.packages(c("ggplot2", "cluster", "dplyr", "patchwork"))
-
-How to Run
-
-1. Open RStudio or any R-compatible IDE.
-
-
-2. Copy and paste the R script into a script file.
-
-
-3. Run the script.
-
-
-4. The poster image will be generated and saved in your working directory.
-
-
-
-Author
-
-Created by: Yazhini K
-Title: Customer Segmentation Poster for Data Analysis and Visualization Project
+A bar plot comparing average income and average spending score (scaled) across all clusters.
 
 
 ---
+Poster Design: All visualizations are arranged into a single cohesive layout using the patchwork library, featuring:
+
+Centralized title and subtitle
+
+Clean and readable design with minimal theme
+
+Cluster-based color distinction
+
+---
+#Output:
+
+Customer_Segmentation_Poster.png: A high-resolution PNG poster (12x16 inches at 300 DPI)
+---
+#Usage Instructions:
+
+1. Ensure you have R installed on your system.
+
+
+2. Install the required libraries listed in requirements.txt.
+
+
+3. Execute the R script to generate and save the poster.
+
+
+
+
+
+
+---
+
+requirements.txt
+
+ggplot2
+cluster
+dplyr
+patchwork
+
+
+---
+
+
